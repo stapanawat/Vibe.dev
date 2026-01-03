@@ -1,0 +1,39 @@
+# Git
+.git
+.gitignore
+
+# IDE
+.idea
+.vscode
+*.swp
+*.swo
+
+# Node
+node_modules
+
+# Laravel
+/vendor
+.env
+.env.backup
+storage/logs/*
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/views/*
+bootstrap/cache/*
+
+# Build artifacts
+/public/build
+/public/hot
+
+# Documentation
+*.md
+!README.md
+
+# Tests
+/tests
+phpunit.xml
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
